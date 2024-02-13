@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+canvas {
+    display: block;
+}
+
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px; /* Increase font size for better visibility */
+    color: #ffffff; /* A deep red/maroon color for a romantic look */
+    font-family: 'Cursive', 'Brush Script MT', 'Lucida Handwriting', sans-serif; /* Add some romantic-looking fonts */
+    text-align: center;
+    z-index: 1;
+    text-shadow: 0 0 10px rgba(214, 34, 70, 0.8), 0 0 20px rgba(214, 34, 70, 0.8), 0 0 30px rgba(214, 34, 70, 0.8); /* Add a glowing effect */
+}
